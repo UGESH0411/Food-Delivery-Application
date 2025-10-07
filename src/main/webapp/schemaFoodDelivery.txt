@@ -1,0 +1,31 @@
+CREATE TABLE products (
+    id INT AUTO_INCREMENT PRIMARY KEY, 
+    name VARCHAR(100) NOT NULL,
+    price DECIMAL(10,2) NOT NULL,
+    stock INT NOT NULL,
+    description TEXT,
+    image_url VARCHAR(255)
+);
+
+
+CREATE TABLE orders (
+    order_id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(100),
+    product_id INT,
+    quantity INT,
+    price DECIMAL(10,2),
+    total DECIMAL(10,2),
+    order_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (product_id) REFERENCES products(id) 
+);
+
+
+CREATE TABLE cart (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(100),
+    item VARCHAR(100),
+    price DECIMAL(10,2),
+    quantity INT,
+    total DECIMAL(10,2)
+);
+

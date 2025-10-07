@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orders>
+    <order>
+        <order_id>1</order_id>
+        <username>ugesh</username>
+        <product_id>101</product_id>
+        <quantity>2</quantity>
+        <price>150.00</price>
+        <total>300.00</total>
+        <order_date>2025-09-01 10:15:00</order_date>
+    </order>
+    <order>
+        <order_id>2</order_id>
+        <username>anita</username>
+        <product_id>102</product_id>
+        <quantity>1</quantity>
+        <price>250.00</price>
+        <total>250.00</total>
+        <order_date>2025-09-01 11:00:00</order_date>
+    </order>
+    <order>
+        <order_id>3</order_id>
+        <username>kiran</username>
+        <product_id>103</product_id>
+        <quantity>3</quantity>
+        <price>120.00</price>
+        <total>360.00</total>
+        <order_date>2025-09-02 09:45:00</order_date>
+    </order>
+</orders>

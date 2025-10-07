@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<xs:simpleType name="rate">
+<xs:restriction base="xs:int">
+<xs:minInclusive value="1"/>
+<xs:maxInclusive value="5"/>
+</xs:restriction>
+</xs:simpleType>
+
+
+<xs:element name="AllFeedBack">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="FeedBack" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="OrderId" type="xs:int"/>
+<xs:element name="Customer">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="C_id" type="xs:int"/>
+<xs:element name="C_name" type="xs:string"/>
+<xs:element name="mail" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="Ratings">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="FoodQuality" type="rate"/>
+<xs:element name="DeliveryTime" type="rate"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="Comments" type="xs:string"/>
+<xs:element name="Date" type="xs:date"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

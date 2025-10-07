@@ -1,0 +1,119 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    border: 0;
+}
+.header{
+    background-color: black;
+    margin-top: 2px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.header h1{
+    color: white;
+}
+.header ul{
+    position: relative;
+    padding-left: 62%;
+}
+.header li a:hover{
+    
+    color: black;
+    background-color: white;
+}
+
+.header a{
+    text-decoration: none;
+}
+.header li,h1,ul,a{
+    display: inline;
+    color: white;
+}
+.searchbar{
+    padding: 25px;
+     z-index: 2;
+}
+.search{
+    width: 60%;
+    padding: 15px;
+  /*  border-color: black;
+    border-style: solid;*/
+}
+img{
+    height: 220px;
+    width: 220px;
+}
+.bg{
+    margin-top: 2px;
+    background-image:url(src/restaurant.jpg) ;
+     z-index: 1;
+}
+.about{
+    text-align: center;
+}
+.review h1{
+  color: white;
+  background-color: black;
+}
+.about h1{
+  color: black;
+  margin-top: 2px;
+}
+.about p{
+    color: black;
+    font-weight: bold;
+}
+.box{
+  border-color: black;
+  background-color: white;
+  color: black;
+  border-width: 2px;
+  border-style: solid;
+  display: inline-block;
+  width: 220px;
+}
+.box:hover{
+    background-color: black;
+    color: white;
+}
+.contact{
+    background-color: black;
+    color: white;
+   
+}
+.order-form {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.qty-label {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.qty-input {
+  width: 60px;
+  padding: 5px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.order-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color;
+}
+
+.order-btn:hover {
+  background-color: #218838;
+}

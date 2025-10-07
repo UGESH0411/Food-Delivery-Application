@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Feedback.xsl"?>
+<!DOCTYPE AllFeedBack SYSTEM "feedback.dtd">
+<AllFeedBack>
+<FeedBack>
+<OrderId>1</OrderId>
+<Customer>
+<C_id>1</C_id>
+<C_name>Ugesh</C_name>
+<mail>ugesh0411@gmail.com</mail>
+</Customer>
+<Ratings>
+<FoodQuality>5</FoodQuality>
+<DeliveryTime>4</DeliveryTime>
+</Ratings>
+<Comments>Food was hot and tasty. Delivery was on time.</Comments>
+<Date>2025-08-26</Date>
+</FeedBack>
+
+<FeedBack>
+<OrderId>2</OrderId>
+<Customer>
+<C_id>2</C_id>
+<C_name>Ravi</C_name>
+<mail>ravi11@gmail.com</mail>
+</Customer>
+<Ratings>
+<FoodQuality>4</FoodQuality>
+<DeliveryTime>4</DeliveryTime>
+</Ratings>
+<Comments>Food was nice.</Comments>
+<Date>2025-08-26</Date>
+</FeedBack>
+
+
+<FeedBack>
+<OrderId>3</OrderId>
+<Customer>
+<C_id>3</C_id>
+<C_name>Anu</C_name>
+<mail>anu@example.com</mail>
+</Customer>
+<Ratings>
+<FoodQuality>3</FoodQuality>
+<DeliveryTime>5</DeliveryTime>
+</Ratings>
+<Comments>Quick delivery.</Comments>
+<Date>2025-08-27</Date>
+</FeedBack>
+</AllFeedBack>

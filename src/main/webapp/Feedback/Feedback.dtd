@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT AllFeedBack (FeedBack+)>
+<!ELEMENT FeedBack (OrderId, Customer, Ratings, Comments, Date)>
+<!ELEMENT OrderId (#PCDATA)>
+<!ELEMENT Customer (C_id, C_name, mail)>
+<!ELEMENT C_id (#PCDATA)>
+<!ELEMENT C_name (#PCDATA)>
+<!ELEMENT mail (#PCDATA)>
+<!ELEMENT Ratings (FoodQuality, DeliveryTime)>
+<!ELEMENT FoodQuality (#PCDATA)>
+<!ELEMENT DeliveryTime (#PCDATA)>
+<!ELEMENT Comments (#PCDATA)>
+<!ELEMENT Date (#PCDATA)>
